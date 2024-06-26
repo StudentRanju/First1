@@ -11,9 +11,6 @@ describe('test suite',()=>
         // to switch into the iframe mode 
          cy.iframe('#courses-iframe').find('a[href="mentorship"]').eq(0).click(); // it will switch to the iframe in cypress 
         // cy.iframe().find('[class="inner-box"] h1').should('have.text', 'Mentorship');
-          
-       
 
-      
     })
 }) 
